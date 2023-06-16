@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGClasses" parallel="methods" thread-count= "3">
+    <test name="FinaProject2">
+        <groups>
+            <run>
+                <include name = "Regression1"></include>
+                <include name = "Regression2"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRun"/>
+        </classes>
+    </test>
+</suite>
